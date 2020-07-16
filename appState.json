@@ -1,0 +1,116 @@
+{
+  "EDITOR_STATE": {
+    "allProjectFiles": {
+      "ee26a424-4ad5-4102-9236-a893782a1b24": {
+        "id": "ee26a424-4ad5-4102-9236-a893782a1b24",
+        "parent": null,
+        "name": "testInduuuSigmaCLI.js",
+        "type": "JS_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "testInduuuSigmaCLI.js",
+        "cursor": {
+          "lineNumber": 1,
+          "column": 1
+        },
+        "config": {
+          "runtime": "nodejs10.x",
+          "handler": "handler",
+          "timeout": 60,
+          "memory": 128,
+          "layers": [],
+          "name": "testInduuuSigmaCLI"
+        },
+        "triggers": [
+          {
+            "resourceName": "apigusEast1induuuindunilqatstany",
+            "config": {}
+          }
+        ]
+      }
+    },
+    "openFiles": [
+      "ee26a424-4ad5-4102-9236-a893782a1b24"
+    ],
+    "currentFileId": "ee26a424-4ad5-4102-9236-a893782a1b24",
+    "resources": {
+      "apigusEast1induuuindunilqatstany": {
+        "name": "apigusEast1induuuindunilqatstany",
+        "type": "API_GATEWAY",
+        "config": {
+          "selectedRegion": "us-east-1",
+          "apiType": 1,
+          "apiMode": 0,
+          "apiName": "induuu",
+          "endpointType": "EDGE",
+          "resourceMode": 0,
+          "resourceName": "indunil/qa/tst",
+          "resourcePath": "/indunil/qa/tst",
+          "restMethod": "ANY",
+          "proxyIntegration": false,
+          "enableCORS": false,
+          "stageMode": 0,
+          "stageName": "test123",
+          "mode": 0
+        }
+      },
+      "s3as2TestLahiru": {
+        "name": "s3as2TestLahiru",
+        "type": "S3",
+        "config": {
+          "mode": 1,
+          "bucket": {
+            "region": "us-east-1",
+            "name": "as2-test-lahiru"
+          }
+        }
+      }
+    },
+    "customTemplate": {
+      "syntax": "JSON",
+      "overrideDefault": false,
+      "dialect": "CloudFormation",
+      "definitions": null
+    },
+    "envVariables": [
+      {
+        "lambdaId": "all",
+        "varKey": "SIGMA_AWS_ACC_ID",
+        "varValue": null,
+        "shouldPersist": false,
+        "displayOnly": false,
+        "editable": false
+      }
+    ],
+    "packageJSON": {
+      "dependencies": {
+        "aws-sdk": {
+          "name": "aws-sdk",
+          "language": "nodejs",
+          "version": "2.644.0",
+          "dev": true,
+          "notRemovable": false
+        }
+      }
+    }
+  },
+  "PROJECT_META": {
+    "sigmaVersion": "1.4.1.1",
+    "projectName": "testInduuuSigmaCLI",
+    "projectDescription": "",
+    "projectVersion": "1.0.0",
+    "projectRegion": "us-east-1",
+    "platform": "AWS",
+    "language": "nodejs",
+    "platformRegions": {},
+    "lastSave": 1594909798188
+  },
+  "VCS_STATE": {
+    "provider": "GitHub",
+    "repo": {
+      "name": "testinduuusigmacli",
+      "url": "https://github.com/Indunil1992/testinduuusigmacli"
+    }
+  }
+}
